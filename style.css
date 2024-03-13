@@ -70,17 +70,19 @@ button {
   outline: 0;
   cursor: pointer;
   margin: 10px;
-  
+
 }
-#click_to_record{
+
+#click_to_record {
   text-align: center;
   /* width: 300px; */
 }
-.btn{
+
+.btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
 }
 
 button img {
@@ -88,7 +90,7 @@ button img {
   margin-right: 10px;
 }
 
-.hero select  {
+.hero select {
   width: 30%;
   height: 40px;
   background: rgb(255, 255, 255, 0.5);
@@ -106,6 +108,7 @@ select * {
   color: #333;
   background: rgb(255, 255, 255, 0.5);
 }
+
 footer {
   /* background-color: #333; */
   color: #fff;
@@ -120,6 +123,7 @@ footer p {
   font-weight: bold;
   letter-spacing: 3px
 }
+
 .social-links {
   margin-top: 10px;
 }
@@ -129,6 +133,7 @@ footer p {
   text-decoration: none;
   margin: 0 10px;
 }
+
 @media (max-width: 640px) {
 
   .hero h1 {
@@ -146,7 +151,8 @@ footer p {
     font-size: 1.25rem;
   }
 
-  select, button {
+  select,
+  button {
     height: 50px;
   }
 
@@ -159,6 +165,7 @@ footer p {
   select {
     width: 100%;
   }
+
   button {
     background: #ff2963;
     color: #fff;
@@ -169,7 +176,7 @@ footer p {
     outline: 0;
     cursor: pointer;
     margin: 10px;
-    
+
   }
 
 }
